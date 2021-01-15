@@ -1,0 +1,196 @@
+body{
+  background-color: #F2F2F2;
+}
+
+nav{
+  background-color: #FEEBEF;
+   .fas{
+     padding: 20px;
+   }
+  .form-inline{
+      display: contents;
+
+
+    .form-control{
+      background-color: #F1DFE3;
+      width: 300px;
+      border: none;
+    }
+    .form-control{
+      position: relative;
+    }
+    .fas{
+      position: absolute;
+      top: 10px;
+      left: 131px;
+    }
+  }
+  .user{
+    margin-left: 635px;
+    display: flex;
+     a{
+       color: #000;
+         span{
+           font-weight: 800;
+         }
+     }
+  }
+}
+
+header{
+  .row{
+    .col-3{
+      .menu-nav{
+        background-color: #fff;
+        border-radius: 10px;
+        height: 43px;
+        width: 200px;
+        margin: 10px 10px;
+        padding: 4px;
+          img{
+            margin-bottom: 6px;
+          }
+        a{
+            color: #000;
+          .fa-clock{
+            margin-left: 73px;
+            border-left: 0.8px solid;
+            padding-left: 8px;
+          }
+        }
+
+        }
+
+      .menu-item{
+        padding-top: 9px;
+        margin-left: 10px;
+        margin-bottom: 9px;
+        a{
+          color: black;
+          text-decoration: none;
+           span{
+             font-size: 18px;
+           }
+        }
+        &:hover{
+          background-color: #d2cfcf;
+          border-radius: 10px;
+          width: 200px;
+          height: 43px;
+
+        }
+      }
+      }
+    .col-12{
+      padding: 0;
+
+      .jadval{
+        margin-top: 15px;
+        padding: 15px;
+        width: 640px;
+        height: auto;
+        background-color: #fff;
+        border-radius: 10px;
+         .sana{
+           font-size: 18px;
+           font-weight: 700;
+         }
+        .svernut{
+          margin-left: 360px;
+        }
+        .ss{
+          color: #828282;
+          text-decoration: none;
+        }
+        .d-flex{
+          a{
+            color: #515050;
+            text-decoration: none;
+
+
+            &:hover{
+              color: #5071da;
+            }
+          }
+          .soat{
+            font-size: 12px;
+            padding-top: 3px;
+            color:  #828282;
+          }
+        }
+        .pokazat{
+          color: #000;
+          text-decoration: none;
+          font-weight: 700;
+          margin-left: 8px;
+
+          &:hover{
+            color: #5071da;
+          }
+        }
+      }
+
+      .nastroyka{
+        margin: 30px 0;
+        a{
+          color: #000;
+          text-decoration: none;
+          h5{
+            font-weight: 600;
+            span{
+              border-bottom: 1px dashed;
+            }
+          }
+        }
+
+      }
+
+      .dropdown{
+        margin-top: 30px ;
+        margin-left: 150px;
+        margin-right: 40px;
+
+        button{
+          border-radius: 50px;
+        }
+
+      }
+
+      .sveji{
+        margin: 30px 0;
+        padding-top: 8px;
+        a{
+          color: #000;
+          text-decoration: none;
+
+          &:hover{
+            background-color: #fff;
+            border-radius: 10px;
+            width: 100px;
+            height: 30px;
+
+          }
+        }
+      }
+    }
+
+    .col-3{
+      padding: 0;
+      h5{
+        margin-top: 15px;
+        margin-bottom: 20px;
+      }
+      .info{
+        a{
+          color: #000;
+          font-weight: 600;
+          text-decoration: none;
+
+          &:hover{
+            color: #0080BD;
+          }
+        }
+      }
+    }
+    }
+  }

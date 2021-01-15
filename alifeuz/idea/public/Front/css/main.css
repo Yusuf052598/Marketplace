@@ -1,0 +1,199 @@
+/*css*/
+body {
+  background-color: #F2F2F2;
+  width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+nav {
+  background-color: #FEEBEF; }
+  nav .fas {
+    padding: 20px; }
+  nav .form-inline {
+    display: contents; }
+    nav .form-inline .form-control {
+      background-color: #F1DFE3;
+      width: 300px;
+      border: none; }
+    nav .form-inline .form-control {
+      position: relative; }
+    nav .form-inline .fas {
+      position: absolute;
+      top: 10px;
+      left: 131px; }
+  nav .user {
+    margin-left: 635px;
+    display: flex; }
+    nav .user a {
+      color: #000; }
+      nav .user a span {
+        font-weight: 800; }
+
+header .row .col-3 .menu-nav {
+  background-color: #fff;
+  border-radius: 10px;
+  height: 43px;
+  width: 200px;
+  margin: 10px 10px;
+  padding: 4px; }
+  header .row .col-3 .menu-nav img {
+    margin-bottom: 6px; }
+  header .row .col-3 .menu-nav a {
+    color: #000; }
+    header .row .col-3 .menu-nav a .fa-clock {
+      margin-left: 73px;
+      border-left: 0.8px solid;
+      padding-left: 8px; }
+header .row .col-3 .menu-item {
+  padding-top: 9px;
+  margin-left: 10px;
+  margin-bottom: 9px; }
+  header .row .col-3 .menu-item a {
+    color: black;
+    text-decoration: none; }
+    header .row .col-3 .menu-item a span {
+      font-size: 18px; }
+  header .row .col-3 .menu-item:hover {
+    background-color: #d2cfcf;
+    border-radius: 10px;
+    width:250px;
+    height: 43px; }
+header .row .col-12 {
+  padding: 0; }
+  header .row .col-12 .jadval {
+    margin-top: 15px;
+    padding: 15px;
+    width: 640px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px; }
+    header .row .col-12 .jadval .sana {
+      font-size: 18px;
+      font-weight: 700; }
+    header .row .col-12 .jadval .svernut {
+      margin-left: 360px; }
+    header .row .col-12 .jadval .ss {
+      color: #828282;
+      text-decoration: none; }
+    header .row .col-12 .jadval .d-flex a {
+      color: #515050;
+      text-decoration: none;
+    }
+      header .row .col-12 .jadval .d-flex a:hover {
+        color: #5071da; }
+    header .row .col-12 .jadval .d-flex .soat {
+      font-size: 12px;
+      padding-top: 3px;
+      color: #828282; }
+    header .row .col-12 .jadval .pokazat {
+      color: #000;
+      text-decoration: none;
+      font-weight: 700;
+      margin-left: 8px; }
+      header .row .col-12.jadval .pokazat:hover {
+        color: #5071da;
+      }
+  header .row .col-12 .nastroyka {
+    margin: 30px 0; }
+    header .row .col-12 .nastroyka a {
+      color: #000;
+      text-decoration: none; }
+      header .row .col-12 .nastroyka a h5 {
+        font-weight: 600; }
+        header .row .col-12 .nastroyka a h5 span {
+          border-bottom: 1px dashed; }
+  header .row .col-12 .dropdown {
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 40px; }
+    header .row .col-12 .dropdown button {
+      border-radius: 50px; }
+  header .row .col-12 .sveji {
+    margin: 30px 0;
+    padding-top: 8px; }
+    header .row .col-12 .sveji a {
+      color: #000;
+      text-decoration: none;
+      text-align: center; }
+      header .row .col-12 .sveji a:hover {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 8px 10px 8px 10px;
+        }
+header .row .col-3 {
+  padding: 0; }
+  header .row .col-3 h5 {
+    margin-top: 15px;
+    margin-bottom: 20px; }
+  header .row .col-3 .info a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none; }
+    header .row .col-3 .info a:hover {
+      color: #0080BD; }
+
+    .posts{
+        width: 640px;
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+
+    .posts__info {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin: 20px;
+        padding-top: 20px;
+    }
+    .posts__info p a {
+      width: 20px;
+    }
+
+    a.subs{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        padding: 2px 10px 0 0;
+        height: 32px;
+        text-decoration: none;
+        color: black;
+        border-radius: 4px;
+        margin: 1px 0;
+        border: 1px solid rgb(160, 160, 160);
+    }
+
+    .subs p , .subs img {
+        padding-left: 6px;
+        padding-top: 4px;
+    }
+    .posts__head p {
+        font-size: 26px;
+        font-weight:700;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .posts__text p {
+        margin-left: 10px;
+        margin-bottom: 20px;
+        font-size: 20px;
+
+    }
+
+    .posts__coments {
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .icons {
+        width: 20px;
+        height: 20px;
+    }
+    .col6{
+        top: 87px;left: 400px;
+    }
+/*# sourceMappingURL=main.css.map */
